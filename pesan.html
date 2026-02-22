@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pesan - Religion 2</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+</head>
+<body>
+    <div class="bg-shapes">
+        <span></span>
+        <span></span>
+        <span></span>
+    </div>
+
+    <header>
+        <nav>
+            <a href="index.html" class="logo">
+    <img src="images/content/logo.jpg" alt="Logo Kelas" class="logo-img">
+            </a>
+            <div class="hamburger"><i class="fas fa-bars"></i></div>
+            <ul class="nav-links">
+                <li><a href="index.html">Beranda</a></li>
+                <li><a href="perjalanan.html">Perjalanan</a></li>
+                <li><a href="member.html">Member</a></li>
+                <li><a href="galeri.html">Galeri</a></li>
+                <li><a href="wali-kelas.html">Wali Kelas</a></li>
+                <li><a href="pesan.html" class="active">Pesan</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <h1 class="section-title">Kirim Pesan</h1>
+        
+        <div class="quote-box">
+            <p class="quote-text">"Komunikasi adalah jembatan antara hati yang berbeda."</p>
+        </div>
+
+        <div class="contact-wrapper">
+            <div class="contact-info">
+                <h3><i class="fas fa-envelope"></i> Hubungi Kami</h3>
+                <p style="margin-bottom: 1.5rem; color: #666;">Punya saran, kritik, atau ingin sekadar menyapa? Silakan tinggalkan pesan di bawah ini!</p>
+                
+                <div class="contact-item">
+                    <div class="contact-icon"><i class="fas fa-map-marker-alt"></i></div>
+                    <div>
+                        <strong>Lokasi Sekolah</strong>
+                        <p style="color: #666; font-size: 0.9rem;">Jl. Pendidikan No.123</p>
+                    </div>
+                </div>
+                
+                <div class="contact-item">
+                    <div class="contact-icon"><i class="fas fa-envelope"></i></div>
+                    <div>
+                        <strong>Email Kelas</strong>
+                        <p style="color: #666; font-size: 0.9rem;">religion2@sekolah.sch.id</p>
+                    </div>
+                </div>
+                
+                <div class="contact-item">
+                    <div class="contact-icon"><i class="fas fa-phone"></i></div>
+                    <div>
+                        <strong>Telepon</strong>
+                        <p style="color: #666; font-size: 0.9rem;">+62 123 4567 890</p>
+                    </div>
+                </div>
+            </div>
+
+            <form class="contact-form" id="contactForm">
+                <div class="form-group">
+                    <label><i class="fas fa-user"></i> Nama</label>
+                    <input type="text" id="name" placeholder="Masukkan nama Anda..." required>
+                </div>
+                
+                <div class="form-group">
+                    <label><i class="fas fa-tag"></i> Subjek</label>
+                    <input type="text" id="subject" placeholder="Topik pesan...">
+                </div>
+                
+                <div class="form-group">
+                    <label><i class="fas fa-comment"></i> Pesan</label>
+                    <textarea id="message" rows="5" placeholder="Tulis pesan Anda di sini..." required></textarea>
+                </div>
+                
+                <button type="submit" class="btn">
+                    <i class="fas fa-paper-plane"></i> Kirim Pesan
+                </button>
+            </form>
+        </div>
+    </main>
+
+    <footer>
+        <p>© 2026 Religion 2 (generous IIK 2)</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
